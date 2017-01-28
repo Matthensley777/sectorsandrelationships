@@ -37,12 +37,12 @@ li {
 }
 
 /*The sibling h4 of the red element should have a background color of red*/
-h4 {
+.red + h4 {
 	background-color: red;
 }
 
 /*The sibling h4 of the blue element should have background color of blue*/
-h4 {
+. blue + h4 {
 	background-color: blue;
 }
 
@@ -57,5 +57,8 @@ h4 {
 }
 
 /*Without adding any other attributes to the input fields in the footer, write a CSS selector that makes any text input field have a height of 25px.*/
+input {
+	height: 25px;
 
+}
 
